@@ -1,0 +1,22 @@
+:host {
+  display:block;
+  background-color:#ff0000;
+  border-radius:5px;
+  padding:1em;
+  height: auto;
+  width:300px;
+  white-space: nowrap;
+  text-align:left;
+}
+:host h1{
+  color:#fff;
+  font-size:16px;
+  display:block;
+  margin:0;
+}
+:host p{
+  color:#fff;
+  font-size:12px;
+  display:block;
+  margin:0;
+}
