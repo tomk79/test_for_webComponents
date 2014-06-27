@@ -1,12 +1,13 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html" />
 <polymer-element name="x-helloworld" noscript>
 	<template>
-		<link rel="stylesheet" href="x-helloworld.css" />
-		<shadow>
-			<h1>Hello World!!</h1>
-			<p>
-				Shadow DOM を使ってみました。<br />
-			</p>
-		</shadow>
+		<style>
+			@import './x-helloworld.css';
+		</style>
+		<link rel="stylesheet" href="./x-helloworld.css" />
+		<h1>Hello World!!</h1>
+		<p>
+			Shadow DOM を使ってみました。<br />
+		</p>
 	</template>
 </polymer-element>
